@@ -106,8 +106,8 @@ $(document).ready(function() {
         autoplay: true,
         centeredSlides: true,
         navigation: {
-            nextEl: '.main-slider .swiper-btn-next',
-            prevEl: '.main-slider .swiper-btn-prev',
+            nextEl: '.screen-section .swiper-btn-next',
+            prevEl: '.screen-section .swiper-btn-prev',
         },
         breakpoints: {
             0: {
