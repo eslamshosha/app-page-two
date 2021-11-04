@@ -631,7 +631,9 @@ html[dir=ltr] .about-phone{
     color: #fff;
     background-color: #b09f40;
 }
-  
+.screen-section .swiper-btn:focus{
+    outline: none;
+}
 .swiper-btn.swiper-btn-next {
     right: 50%;
 }
@@ -881,6 +883,9 @@ html[dir=rtl] .social-link:last-of-type {
     main::after{
         display: none;
     }
+    .main-cont{
+        padding-top: 20px;
+    }
     .main-content{
         margin-bottom: 30px;
         text-align: center;
@@ -898,6 +903,9 @@ html[dir=rtl] .social-link:last-of-type {
     }
     /*                               main                               */
     /*                               about                               */
+    .about-section{
+        padding: 60px 0;
+    }
     .about-phone{
         text-align: center;
         margin-bottom: 30px;
