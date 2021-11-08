@@ -371,18 +371,18 @@ html[dir=ltr] .about-phone{
     text-align: center;
     margin-bottom: 90px;
 }
-@media (min-width: 992px) {
+/* @media (min-width: 992px) {
     .screen-section .swiper-container{
         max-width: 875px;
     }    
-}
+} */
 .screen-section::before{
     content: "";
     background: url(../images/back-02.png);
     position: absolute;
     top: 12%;
     left: 0;
-    width: 10%;
+    width: 6%;
     height: 73%;
 }
 .screen-section::after{
@@ -391,7 +391,7 @@ html[dir=ltr] .about-phone{
     position: absolute;
     top: 12%;
     right: 0;
-    width: 10%;
+    width: 6%;
     height: 73%;
 }
 .screen{
