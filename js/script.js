@@ -68,58 +68,26 @@ $(document).ready(function() {
         }, 1000);
     });
     //////////////////////////////////
-    if ( $(window).width() < 992 ) {
-		$('.features-cont').contents().unwrap();
-        $(".features-section .features").addClass("swiper-container");
-        $(".features-section .features-div").addClass("swiper-wrapper");
-        $(".features-section .features-slidess").addClass("swiper-slide");
-        var features = new Swiper('.features-section .swiper-container', {
-            loop: true,
-            autoplay: true,
-            pagination: {
-                el: '.features-section .swiper-pagination',
-                clickable: true,
-            },
-            breakpoints: {
-                0: {
-                    slidesPerView: 1,
-                    spaceBetween: 15,
-                },
-                767: {
-                    slidesPerView: 1,
-                    spaceBetween: 15,
-                },
-                992: {
-                    slidesPerView: 1,
-                    spaceBetween: 15,
-                },
-                1199: {
-                    slidesPerView: 2,
-                    spaceBetween: 30,
-                },
-            },
-        });
-    }
+   
     ///////// **screen-section** /////////
     var screen = new Swiper('.screen-section .swiper-container', {
         loop: true,
         autoplay: true,
-        centeredSlides: true,
-        navigation: {
-            nextEl: '.screen-section .swiper-btn-next',
-            prevEl: '.screen-section .swiper-btn-prev',
+        pagination: {
+            el: '.screen-section .swiper-pagination',
+            clickable: true,
         },
         breakpoints: {
             0: {
-                slidesPerView: 1,
+                slidesPerView: 2,
                 spaceBetween: 15,
             },
             767: {
-                slidesPerView: 1,
+                slidesPerView: 2,
                 spaceBetween: 15,
             },
             992: {
-                slidesPerView: 5,
+                slidesPerView: 2,
                 spaceBetween: 15,
             },
             1199: {
