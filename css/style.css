@@ -636,10 +636,9 @@ html[dir=rtl] .social-link:last-of-type {
         width: 80%;
         height: 100%;
         background-color: #fff;
-        transition: .4s;
         z-index: 200;
         overflow-y: auto;
-        transition: all .4s ease-in-out;
+        transition: all .5s ease-in-out;
     }
     html[dir=rtl] .navgition{
         left: 0;
