@@ -639,7 +639,7 @@ html[dir=rtl] .social-link:last-of-type {
         transition: .4s;
         z-index: 200;
         overflow-y: auto;
-        transition: all .3s ease-in-out;
+        transition: all .4s ease-in-out;
     }
     html[dir=rtl] .navgition{
         left: 0;
